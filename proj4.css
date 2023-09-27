@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
+#fact {
+    font-weight: bold;
+}
+
+#img {
+    max-width: 25%;
+    max-height: 25%;
+    margin-left: 15px;
+}

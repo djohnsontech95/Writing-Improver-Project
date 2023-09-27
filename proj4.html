@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proj4.css">
+    <title>Project 4</title>
+</head>
+<body>
+    <center>
+        <h1>Writing Improver</h1>
+        <h2>Select an amount and an animal below. A new picture will appear after you type that many words</h2>
+        New Picture of <select id="animal-select">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+        </select>
+        every <select id="num-select">
+            <option>50</option>
+            <option>100</option>
+            <option>200</option>
+            <option>500</option>
+        </select> words
+        <br><br><br>
+        <div id="main-div">
+            <textarea id="writing-textarea" rows="13" cols="50"></textarea>
+            <img id="img" src="https://via.placeholder.com/450x210/dddddd/222222/?text=start%20typing%20to%20get%20cute%20animals!">
+        </div>
+        <br><br>
+        <p id="fact"></p>
+        <br>
+        Current word count: <span id="count">0</span>
+    </center>
+
+    <script src="proj4.js"></script>
+</body>
+</html>
